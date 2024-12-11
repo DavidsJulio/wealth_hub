@@ -19,7 +19,8 @@
       }
     ],
     "paths": {
-      "./*": ["./src/*"]
+      "./*": ["./src/*"],
+      "web_kit_ui": ["node_modules/web_kit_ui"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
